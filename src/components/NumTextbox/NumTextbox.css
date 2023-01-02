@@ -1,0 +1,13 @@
+.numTextbox-heading {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0.8rem 0;
+}
+
+.numTextbox-enter-number {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2.4rem;
+  text-align: center;
+}

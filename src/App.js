@@ -1,10 +1,11 @@
 import "./App.css";
-import { MainNavbar } from "./components";
+import { MainNavbar, NumTextbox } from "./components";
 
 function App() {
   return (
     <header className="app-container">
       <MainNavbar />
+      <NumTextbox />
     </header>
   );
 }

@@ -6,7 +6,7 @@ const MainNavbar = () => {
   return (
     <div className="mainNavbar-navbar">
       <div className="mainNavbar-logo-name">
-        <img src={images.whatsAppLogo} />
+        <img src={images.whatsAppLogo} alt="WhatsApp Logo" />
         WhatsApp
       </div>
       <div className="mainNavbar-menu">
