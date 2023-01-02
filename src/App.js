@@ -1,10 +1,11 @@
 import "./App.css";
+import { MainNavbar } from "./components";
 
 function App() {
   return (
-    <div className="app-container gen-center">
-      <header className="app-header">hi</header>
-    </div>
+    <header className="app-container">
+      <MainNavbar />
+    </header>
   );
 }
 
