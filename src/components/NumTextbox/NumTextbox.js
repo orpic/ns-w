@@ -3,7 +3,7 @@ import "./NumTextbox.css";
 
 const NumTextbox = () => {
   return (
-    <div className="numTextbox-container">
+    <div className="gen-col-container">
       <h1 className="numTextbox-heading">
         Send message on WhatsApp without saving number
       </h1>
