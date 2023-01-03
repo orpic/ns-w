@@ -58,7 +58,7 @@ const AppBody = () => {
   return (
     <div className="gen-col-container">
       <h1 className="numTextbox-heading">
-        Send message on WhatsApp without saving number
+        Chat on WhatsApp without saving number
       </h1>
       <p className="numTextbox-heading">
         ( WhatsApp <span>पे मैसेज भेजे बिना नंबर सेव किए</span> )
