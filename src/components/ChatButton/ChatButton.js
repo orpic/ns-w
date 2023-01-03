@@ -1,7 +1,10 @@
 import React from "react";
 import "./ChatButton.css";
 
+import { useSelector } from "react-redux";
+
 const ChatButton = () => {
+  const number = useSelector((state) => state.numInput.numInputVal);
   return (
     <div className="gen-col-container">
       <button className="numTextbox-btn">
