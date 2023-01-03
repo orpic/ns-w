@@ -6,18 +6,22 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .numTextbox-heading {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-align: center;
   margin: 0.4rem 0;
 }
 
 .numTextbox-enter-number {
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-align: center;
   margin-bottom: 0.8rem;
+}
+
+.numTextbox-enter-number span {
+  font-weight: 500;
 }
 
 .numTextbox-inputs {
