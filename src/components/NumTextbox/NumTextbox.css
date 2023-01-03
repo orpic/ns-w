@@ -57,7 +57,20 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .input-mobile-num {
+  border-radius: 0;
+  /* border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;  */
+}
+
+.clear-input-mobile-num {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  /* border-left: none; */
+  border-left: none;
+  background-color: #e9e8e8;
+  width: 36px;
+}
+.clear-input-mobile-num svg {
+  width: 20px;
 }
