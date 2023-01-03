@@ -64,6 +64,13 @@ input[type="number"]::-webkit-outer-spin-button {
   border-bottom-right-radius: 0;  */
 }
 
+.error-state-input {
+  border-bottom-color: red;
+}
+.error-state-clear {
+  color: red;
+}
+
 .clear-input-mobile-num {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
