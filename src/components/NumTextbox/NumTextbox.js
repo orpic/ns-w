@@ -7,6 +7,10 @@ const NumTextbox = () => {
   const onNumInputChangeHandler = (event) => {
     const limit = 10;
     const val = event.target.value.slice(0, limit);
+
+    if (val.charAt(0) < 6 && val.charAt(0) > 9) {
+      // dispatch
+    }
     setNumInput(val);
     // console.log(val);
   };
