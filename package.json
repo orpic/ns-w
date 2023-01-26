@@ -1,7 +1,7 @@
 {
   "name": "no-save-whatsapp",
   "version": "0.1.0",
-  "homepage": "https://orpic.github.io/no-save-whatsapp",
+  "homepage": "https://orpic.github.io/ns-w",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
